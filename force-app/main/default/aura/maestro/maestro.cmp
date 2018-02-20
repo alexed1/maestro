@@ -1,0 +1,63 @@
+<aura:component implements="flexipage:availableForAllPageTypes, force:appHostable" access="global" controller="MaestroController">
+
+    
+
+    <aura:attribute name="curOrch" type="Orchestration" />
+    <aura:attribute name="curOrchMember" type="Object" />
+    <aura:attribute name="selectedOrchestrationName" type="String" />
+    <aura:attribute name="orchestrationNames" type="List" />
+
+    <aura:handler name="init" value="{!this}" action="{!c.init}" />
+
+    <aura:handler name="change" value="{!v.selectedOrchestrationName}" action="{!c.handleOrchestrationSelection}" />
+   
+    <div class="slds-card slds-p-around_small">
+
+
+        <lightning:spinner aura:id="mySpinner" class="slds-hide" size="large" />
+
+        <lightning:overlayLibrary aura:id="modalDialog" />
+
+        <!-- <div class="heading">Einstein Next Strategy Builder
+        </div> -->
+
+        <div class="slds-float_left slds-m-top_large">
+
+            <lightning:buttonMenu iconName="utility:settings" alternativeText="Settings" onselect="{! c.handleMenuSelect }">
+                <lightning:menuItem label="New Orchestration" value="newOrchestration" />                
+                <aura:if isTrue="{!v.selectedOrchestrationName != ''}">
+                    <hr class="hr" />
+                    <lightning:menuItem label="New Orchestration" value="addElement" />                          
+                    <lightning:menuItem label="Save Orchestration" value="saveOrchestration" />
+                </aura:if>  
+            </lightning:buttonMenu>
+        </div>
+        <div class="slds-float_left slds-m-top_xxx-small slds-m-left_small">
+
+            <lightning:select name="orchestrationSelect" label="Select an Orchestration" aura:id="mySelect" value="{!v.selectedOrchestrationName}" class="select_box">
+                <aura:iteration items="{!v.orchestrationNames}" var="item">
+                    <option text="{!item}" value="{!item}" />
+                </aura:iteration>
+            </lightning:select>
+
+        </div>
+        <p></p>
+        <hr class="myhr"></hr>
+
+        <!-- <div aura:id="fileInput" ondragover="{!c.onDragOver}" ondrop="{!c.onDrop}" >Drop Here!</div> -->
+        <br> </br>
+
+
+        <div class="slds-grid ">
+
+            <div class="slds-col slds-box">
+                <b>Orchestration Details</b>
+                {!v.body}
+                
+
+            </div>
+
+        </div>
+    </div>
+
+</aura:component>

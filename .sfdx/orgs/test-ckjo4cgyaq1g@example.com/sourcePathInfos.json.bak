@@ -1,0 +1,314 @@
+[
+    [
+        "/home/alexed/dev/maestro/force-app",
+        {
+            "sourcePath": "/home/alexed/dev/maestro/force-app",
+            "isDirectory": true,
+            "size": 128,
+            "modifiedTime": 1519088993000,
+            "changeTime": 1519088993000,
+            "contentHash": "51d86f3b64a3d9a0048d192f02147b0e9e9594e4",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": true
+        }
+    ],
+    [
+        "/home/alexed/dev/maestro/force-app/main",
+        {
+            "sourcePath": "/home/alexed/dev/maestro/force-app/main",
+            "isDirectory": true,
+            "size": 128,
+            "modifiedTime": 1519088993000,
+            "changeTime": 1519088993000,
+            "contentHash": "ae41ed56706e4439a34cda97ac997d7988935c2f",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/home/alexed/dev/maestro/force-app/main/default",
+        {
+            "sourcePath": "/home/alexed/dev/maestro/force-app/main/default",
+            "isDirectory": true,
+            "size": 160,
+            "modifiedTime": 1519091398000,
+            "changeTime": 1519091398000,
+            "contentHash": "461eeafc376496d626321d1533a6b2401f757253",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false
+        }
+    ],
+    [
+        "/home/alexed/dev/maestro/force-app/main/default/aura",
+        {
+            "sourcePath": "/home/alexed/dev/maestro/force-app/main/default/aura",
+            "isDirectory": true,
+            "size": 128,
+            "modifiedTime": 1519088997000,
+            "changeTime": 1519088997000,
+            "contentHash": "9c104116b3be79e2814bc3a3df2b970630fd2edf",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/home/alexed/dev/maestro/force-app/main/default/aura/maestro",
+        {
+            "sourcePath": "/home/alexed/dev/maestro/force-app/main/default/aura/maestro",
+            "isDirectory": true,
+            "size": 352,
+            "modifiedTime": 1519088964000,
+            "changeTime": 1519088964000,
+            "contentHash": "ee7e18b54189a871554936e3667868f28af65f5b",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/home/alexed/dev/maestro/force-app/main/default/aura/maestro/maestro.auradoc",
+        {
+            "sourcePath": "/home/alexed/dev/maestro/force-app/main/default/aura/maestro/maestro.auradoc",
+            "isDirectory": false,
+            "size": 209,
+            "modifiedTime": 1519088964000,
+            "changeTime": 1519088964000,
+            "contentHash": "fd7f560d82324d6a8255c8c6ebf60698f5f93f1e",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/home/alexed/dev/maestro/force-app/main/default/aura/maestro/maestro.cmp",
+        {
+            "sourcePath": "/home/alexed/dev/maestro/force-app/main/default/aura/maestro/maestro.cmp",
+            "isDirectory": false,
+            "size": 2416,
+            "modifiedTime": 1519092830000,
+            "changeTime": 1519092830000,
+            "contentHash": "42674cb7453f4a8535688ba11672d21061a3b734",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false
+        }
+    ],
+    [
+        "/home/alexed/dev/maestro/force-app/main/default/aura/maestro/maestro.cmp-meta.xml",
+        {
+            "sourcePath": "/home/alexed/dev/maestro/force-app/main/default/aura/maestro/maestro.cmp-meta.xml",
+            "isDirectory": false,
+            "size": 239,
+            "modifiedTime": 1519088964000,
+            "changeTime": 1519088964000,
+            "contentHash": "844403b2ff69ae95f2fb65600a29970aa0be1c09",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/home/alexed/dev/maestro/force-app/main/default/aura/maestro/maestro.css",
+        {
+            "sourcePath": "/home/alexed/dev/maestro/force-app/main/default/aura/maestro/maestro.css",
+            "isDirectory": false,
+            "size": 10,
+            "modifiedTime": 1519088964000,
+            "changeTime": 1519088964000,
+            "contentHash": "44063bf628f237edaa1f3f358714dd40ac321703",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/home/alexed/dev/maestro/force-app/main/default/aura/maestro/maestro.design",
+        {
+            "sourcePath": "/home/alexed/dev/maestro/force-app/main/default/aura/maestro/maestro.design",
+            "isDirectory": false,
+            "size": 40,
+            "modifiedTime": 1519088964000,
+            "changeTime": 1519088964000,
+            "contentHash": "c5618bc7228e29c74b07b78fd040e05ae8a541ec",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/home/alexed/dev/maestro/force-app/main/default/aura/maestro/maestro.svg",
+        {
+            "sourcePath": "/home/alexed/dev/maestro/force-app/main/default/aura/maestro/maestro.svg",
+            "isDirectory": false,
+            "size": 661,
+            "modifiedTime": 1519088964000,
+            "changeTime": 1519088964000,
+            "contentHash": "721eeffe17135535c3834b77f1e1968fe6360ed4",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/home/alexed/dev/maestro/force-app/main/default/aura/maestro/maestroController.js",
+        {
+            "sourcePath": "/home/alexed/dev/maestro/force-app/main/default/aura/maestro/maestroController.js",
+            "isDirectory": false,
+            "size": 1330,
+            "modifiedTime": 1519093247000,
+            "changeTime": 1519093247000,
+            "contentHash": "cbfc96974e3fabe37d39a002cae820b84b7c1fd8",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false
+        }
+    ],
+    [
+        "/home/alexed/dev/maestro/force-app/main/default/aura/maestro/maestroHelper.js",
+        {
+            "state": "u",
+            "sourcePath": "/home/alexed/dev/maestro/force-app/main/default/aura/maestro/maestroHelper.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 1836,
+            "modifiedTime": 1519098757000,
+            "changeTime": 1519098757000,
+            "isWorkspace": false,
+            "contentHash": "ad9eebd5d1bb11fb242b577c65251f19c9cfe210"
+        }
+    ],
+    [
+        "/home/alexed/dev/maestro/force-app/main/default/aura/maestro/maestroRenderer.js",
+        {
+            "sourcePath": "/home/alexed/dev/maestro/force-app/main/default/aura/maestro/maestroRenderer.js",
+            "isDirectory": false,
+            "size": 50,
+            "modifiedTime": 1519088964000,
+            "changeTime": 1519088964000,
+            "contentHash": "8b79b016f08440c9b2f7d706a6d21229c854540b",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/home/alexed/dev/maestro",
+        {
+            "sourcePath": "/home/alexed/dev/maestro",
+            "isDirectory": true,
+            "size": 288,
+            "modifiedTime": 1519091231000,
+            "changeTime": 1519091231000,
+            "contentHash": "b12313919584842854d6b3ec7d3b56c30f769c53",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": true,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/home/alexed/dev/maestro/force-app/main/default/classes",
+        {
+            "sourcePath": "/home/alexed/dev/maestro/force-app/main/default/classes",
+            "isDirectory": true,
+            "size": 288,
+            "modifiedTime": 1519098695000,
+            "changeTime": 1519098111000,
+            "contentHash": "3f6bb40eb1bd9157c7aa4080fa514441d47eb67f",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/home/alexed/dev/maestro/force-app/main/default/classes/MaestroController.cls",
+        {
+            "state": "u",
+            "sourcePath": "/home/alexed/dev/maestro/force-app/main/default/classes/MaestroController.cls",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 2604,
+            "modifiedTime": 1519098870000,
+            "changeTime": 1519098870000,
+            "contentHash": "f2267a37b45bba4703338386670bff750976f9bc"
+        }
+    ],
+    [
+        "/home/alexed/dev/maestro/force-app/main/default/classes/MaestroController.cls-meta.xml",
+        {
+            "sourcePath": "/home/alexed/dev/maestro/force-app/main/default/classes/MaestroController.cls-meta.xml",
+            "isDirectory": false,
+            "size": 195,
+            "modifiedTime": 1519091417000,
+            "changeTime": 1519091417000,
+            "contentHash": "04ec204e9fbb44c5be05445833e5287cfa310d6b",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "/home/alexed/dev/maestro/force-app/main/default/classes/Orchestration.cls",
+        {
+            "sourcePath": "/home/alexed/dev/maestro/force-app/main/default/classes/Orchestration.cls",
+            "isDirectory": false,
+            "size": 409,
+            "modifiedTime": 1519097273000,
+            "changeTime": 1519097273000,
+            "contentHash": "1a52743d094448d7b192e3df67fec4d0f54de389",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/home/alexed/dev/maestro/force-app/main/default/classes/Orchestration.cls-meta.xml",
+        {
+            "sourcePath": "/home/alexed/dev/maestro/force-app/main/default/classes/Orchestration.cls-meta.xml",
+            "isDirectory": false,
+            "size": 191,
+            "modifiedTime": 1519091669000,
+            "changeTime": 1519091669000,
+            "contentHash": "4ce7562fb2f3448d037a6a06cf53fffbd9d8aebb",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "/home/alexed/dev/maestro/force-app/main/default/classes/OrchestrationMember.cls",
+        {
+            "sourcePath": "/home/alexed/dev/maestro/force-app/main/default/classes/OrchestrationMember.cls",
+            "isDirectory": false,
+            "size": 250,
+            "modifiedTime": 1519097728000,
+            "changeTime": 1519097728000,
+            "contentHash": "5dba9e36eb0c7a51c05cdcd51f668871e50b807f",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/home/alexed/dev/maestro/force-app/main/default/classes/OrchestrationMember.cls-meta.xml",
+        {
+            "sourcePath": "/home/alexed/dev/maestro/force-app/main/default/classes/OrchestrationMember.cls-meta.xml",
+            "isDirectory": false,
+            "size": 197,
+            "modifiedTime": 1519097051000,
+            "changeTime": 1519097051000,
+            "contentHash": "6dbb16beb4d7717c124e2d4b613d5d42f8cef87a",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ]
+]

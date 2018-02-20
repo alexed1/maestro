@@ -1,0 +1,25 @@
+<aura:component>
+
+	
+    <aura:attribute name="label" type="String" default="no label provided"/>
+	<aura:attribute name="status" type="String" default="NO STATUS PROVIDED"/>
+ 
+	
+	<div   class="slds-grid">
+
+		 <div class="slds-col slds-size_1-of-4">
+		 	<lightning:icon iconName="action:flow" size="small" />
+		 </div>
+
+		 <div class="slds-col">
+		 	{!v.label} 
+		 </div>
+
+		 <div class="slds-col">
+		 	{!v.status}
+		 </div>
+
+	</div>
+
+
+</aura:component>	

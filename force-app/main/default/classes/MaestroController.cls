@@ -4,6 +4,12 @@ public with sharing class MaestroController {
     }
 
     @AuraEnabled
+    public static String getSessionId() {
+      return UserInfo.getSessionId();
+    }
+
+
+    @AuraEnabled
     public static List<String> getOrchestrationNames() {
         List<Orchestration__c> curOrchestrations =
         		 [SELECT  Label__c 

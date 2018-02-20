@@ -1,8 +1,39 @@
 ({
-    init: function (cmp, event, helper) {
-        helper.loadOrchestrationNames(cmp);
+    init: function (component, event, helper) {
+      helper.loadOrchestrationNames(component);
+
+
+      component.set('v.cometdSubscriptions', []);
+  	  component.set('v.notifications', []);
+
+	  // Disconnect CometD when leaving page
+	  window.addEventListener('unload', function(event) {
+	    helper.disconnectCometd(component);
+	  });
+	  // Retrieve session id
+	  var action = component.get('c.getSessionId');
+	  action.setCallback(this, function(response) {
+	    if (component.isValid() && response.getState() === 'SUCCESS') {
+	      component.set('v.sessionId', response.getReturnValue());
+	      if (component.get('v.cometd') != null)
+	        helper.connectCometd(component);
+	    }
+	    else
+	      console.error(response);
+	  });
+	  $A.enqueueAction(action);
+
+  	  //helper.displayToast(component, 'success', 'Ready to receive notifications.');
 
     },
+
+    onCometdLoaded : function(component, event, helper) {
+	  var cometd = new org.cometd.CometD();
+	  component.set('v.cometd', cometd);
+	  if (component.get('v.sessionId') != null)
+	    helper.connectCometd(component);
+	},
+
 
 
     handleOrchestrationSelection: function (cmp, event, helper) {
@@ -19,7 +50,7 @@
         helper.loadOrchestration(cmp, orchestrationName);
     },
 
-    
+
 
 	handleMenuSelect: function (cmp, event, helper) {
         var selectedMenuItemValue = event.getParam('value');
@@ -34,6 +65,9 @@
                 alert('This functionality is not implemented yet');
                 break;
         }
-    },
+    }
+
+
+
 
 })

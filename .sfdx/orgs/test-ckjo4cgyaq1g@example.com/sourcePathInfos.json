@@ -477,32 +477,8 @@
             "contentHash": "d62766579193892b040adfb31a23790e77c8dae7"
         }
     ],
-    [
-        "/home/alexed/dev/maestro/force-app/main/default/externalServiceRegistrations/GetProcedures1.externalServiceRegistration-meta.xml",
-        {
-            "state": "u",
-            "sourcePath": "/home/alexed/dev/maestro/force-app/main/default/externalServiceRegistrations/GetProcedures1.externalServiceRegistration-meta.xml",
-            "isDirectory": false,
-            "isMetadataFile": true,
-            "size": 2303,
-            "modifiedTime": 1519138178000,
-            "changeTime": 1519138178000,
-            "contentHash": "170ebf2e9262c2fe8bb124013e90abfd64d6e74d"
-        }
-    ],
-    [
-        "/home/alexed/dev/maestro/force-app/main/default/externalServiceRegistrations/getCool3.externalServiceRegistration-meta.xml",
-        {
-            "state": "u",
-            "sourcePath": "/home/alexed/dev/maestro/force-app/main/default/externalServiceRegistrations/getCool3.externalServiceRegistration-meta.xml",
-            "isDirectory": false,
-            "isMetadataFile": true,
-            "size": 930,
-            "modifiedTime": 1519138178000,
-            "changeTime": 1519138178000,
-            "contentHash": "04e62b99c02b9b89707ada373c622adac35d3107"
-        }
-    ],
+    
+    
     [
         "/home/alexed/dev/maestro/force-app/main/default/externalServiceRegistrations/GetProc5.externalServiceRegistration-meta.xml",
         {
@@ -516,19 +492,7 @@
             "contentHash": "ee7c593514226a6b61d82245e471f25c7063cda8"
         }
     ],
-    [
-        "/home/alexed/dev/maestro/force-app/main/default/externalServiceRegistrations/getCool2.externalServiceRegistration-meta.xml",
-        {
-            "state": "u",
-            "sourcePath": "/home/alexed/dev/maestro/force-app/main/default/externalServiceRegistrations/getCool2.externalServiceRegistration-meta.xml",
-            "isDirectory": false,
-            "isMetadataFile": true,
-            "size": 887,
-            "modifiedTime": 1519138178000,
-            "changeTime": 1519138178000,
-            "contentHash": "5daa28c53394dc434103f5da8015377b142cec0a"
-        }
-    ],
+    
     [
         "/home/alexed/dev/maestro/force-app/main/default/objects/RequiredPart__c/RequiredPart__c.object-meta.xml",
         {
@@ -1401,19 +1365,6 @@
         }
     ],
     [
-        "/home/alexed/dev/maestro/force-app/main/default/flows/CreateEstimate-17.flow-meta.xml",
-        {
-            "state": "u",
-            "sourcePath": "/home/alexed/dev/maestro/force-app/main/default/flows/CreateEstimate-17.flow-meta.xml",
-            "isDirectory": false,
-            "isMetadataFile": true,
-            "size": 11190,
-            "modifiedTime": 1519138179000,
-            "changeTime": 1519138179000,
-            "contentHash": "e72d4fe5139d8b3a0a40f92f8cd938effd3ed9af"
-        }
-    ],
-    [
         "/home/alexed/dev/maestro/force-app/main/default/flows/CreateEstimate-28.flow-meta.xml",
         {
             "state": "u",
@@ -1452,19 +1403,7 @@
             "contentHash": "d593c3b90b411ad12380ce08d681e3b3fe7b3179"
         }
     ],
-    [
-        "/home/alexed/dev/maestro/force-app/main/default/flows/CreateEstimate-18.flow-meta.xml",
-        {
-            "state": "u",
-            "sourcePath": "/home/alexed/dev/maestro/force-app/main/default/flows/CreateEstimate-18.flow-meta.xml",
-            "isDirectory": false,
-            "isMetadataFile": true,
-            "size": 13904,
-            "modifiedTime": 1519138179000,
-            "changeTime": 1519138179000,
-            "contentHash": "43f2da16bd8eee09ab014662694f7bd26c914bdb"
-        }
-    ],
+    
     [
         "/home/alexed/dev/maestro/force-app/main/default/flows/CreateEstimate-23.flow-meta.xml",
         {
@@ -1621,19 +1560,7 @@
             "contentHash": "863efbdbee73f45d3eb9c02b9cd9a13f219e1aa7"
         }
     ],
-    [
-        "/home/alexed/dev/maestro/force-app/main/default/profiles/alex1 Profile.profile-meta.xml",
-        {
-            "state": "u",
-            "sourcePath": "/home/alexed/dev/maestro/force-app/main/default/profiles/alex1 Profile.profile-meta.xml",
-            "isDirectory": false,
-            "isMetadataFile": true,
-            "size": 31126,
-            "modifiedTime": 1519138179000,
-            "changeTime": 1519138179000,
-            "contentHash": "28bc689612a60bd25f6bc10e115b0990e0413b28"
-        }
-    ],
+    
     [
         "/home/alexed/dev/maestro/force-app/main/default/profiles/Admin.profile-meta.xml",
         {
@@ -1647,19 +1574,7 @@
             "contentHash": "093350081f42b47e5db22df907befb8369729640"
         }
     ],
-    [
-        "/home/alexed/dev/maestro/force-app/main/default/profiles/alex1 Profile1519067730484.profile-meta.xml",
-        {
-            "state": "u",
-            "sourcePath": "/home/alexed/dev/maestro/force-app/main/default/profiles/alex1 Profile1519067730484.profile-meta.xml",
-            "isDirectory": false,
-            "isMetadataFile": true,
-            "size": 27008,
-            "modifiedTime": 1519138179000,
-            "changeTime": 1519138179000,
-            "contentHash": "af24eb419d04462fa7b9a3808a9abfcd44cb5f3f"
-        }
-    ],
+
     [
         "/home/alexed/dev/maestro/force-app/main/default/staticresources",
         {

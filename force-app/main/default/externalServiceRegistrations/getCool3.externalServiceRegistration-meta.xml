@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExternalServiceRegistration xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>getCool3</label>
+    <namedCredential>alexedHeroku</namedCredential>
+    <schema>{
+  "swagger" : "2.0",
+  "info" : {
+    "version" : "1.0",
+    "title" : "Hello World API"
+  },
+  "host" : "repair-service.herokuapp.com",
+  "paths" : {
+    "/cool" : {
+      "get" : {
+        "description" : "Returns a greeting to the user!",
+        "parameters" : [ ],
+        "responses" : {
+          "200" : {
+            "description" : "Returns the greeting.",
+            "schema" : {
+              "type" : "string"
+            }
+          },
+          "400" : {
+            "description" : "Invalid characters in \"user\" were provided."
+          }
+        }
+      }
+    }
+  },
+  "definitions" : { }
+}</schema>
+    <schemaType>OpenApi</schemaType>
+    <status>Complete</status>
+</ExternalServiceRegistration>

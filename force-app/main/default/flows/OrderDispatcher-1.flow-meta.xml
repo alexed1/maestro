@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <interviewLabel>OrderDispatcher {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>OrderDispatcher</label>
+    <processType>AutoLaunchedFlow</processType>
+    <recordCreates>
+        <name>Generate_Orchestration_Update</name>
+        <label>Generate Orchestration Update</label>
+        <locationX>52</locationX>
+        <locationY>46</locationY>
+        <inputAssignments>
+            <field>OrchestrationMemberId__c</field>
+            <value>
+                <stringValue>2</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Status__c</field>
+            <value>
+                <stringValue>Fantastic</stringValue>
+            </value>
+        </inputAssignments>
+        <object>OrchestrationStatusUpdate__e</object>
+    </recordCreates>
+    <startElementReference>Generate_Orchestration_Update</startElementReference>
+</Flow>

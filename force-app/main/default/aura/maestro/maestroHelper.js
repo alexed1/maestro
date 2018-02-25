@@ -147,8 +147,17 @@
     component.set('v.notifications', notifications);
     // Display notification in a toast if not muted
     if (!component.get('v.isMuted'))
-      helper.displayToast(component, 'info', newNotification.message);
+      //helper.displayToast(component, 'info', newNotification.message);
+      helper.updateLogstream(component, platformEvent.data.payload);
   	//helper.disconnectCometd(component);
+
+  },
+
+  updateLogstream : function(cmp, eventData) {
+    var logstream = cmp.get("v.logStream");
+    var updateLine= eventData.Label__c + " " + eventData.Record_Name__c + " " + eventData.Record_ID__c;
+    logstream.unshift(updateLine);
+    cmp.set("v.logStream", logstream);
 
   },
 

@@ -477,8 +477,6 @@
             "contentHash": "d62766579193892b040adfb31a23790e77c8dae7"
         }
     ],
-    
-    
     [
         "/home/alexed/dev/maestro/force-app/main/default/externalServiceRegistrations/GetProc5.externalServiceRegistration-meta.xml",
         {
@@ -492,7 +490,6 @@
             "contentHash": "ee7c593514226a6b61d82245e471f25c7063cda8"
         }
     ],
-    
     [
         "/home/alexed/dev/maestro/force-app/main/default/objects/RequiredPart__c/RequiredPart__c.object-meta.xml",
         {
@@ -1403,7 +1400,6 @@
             "contentHash": "d593c3b90b411ad12380ce08d681e3b3fe7b3179"
         }
     ],
-    
     [
         "/home/alexed/dev/maestro/force-app/main/default/flows/CreateEstimate-23.flow-meta.xml",
         {
@@ -1560,7 +1556,6 @@
             "contentHash": "863efbdbee73f45d3eb9c02b9cd9a13f219e1aa7"
         }
     ],
-    
     [
         "/home/alexed/dev/maestro/force-app/main/default/profiles/Admin.profile-meta.xml",
         {
@@ -1574,7 +1569,6 @@
             "contentHash": "093350081f42b47e5db22df907befb8369729640"
         }
     ],
-
     [
         "/home/alexed/dev/maestro/force-app/main/default/staticresources",
         {

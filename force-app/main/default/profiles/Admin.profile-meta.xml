@@ -10,13 +10,10 @@
         <default>false</default>
         <visible>true</visible>
     </applicationVisibilities>
-    
-    
     <classAccesses>
         <apexClass>MaestroController</apexClass>
         <enabled>true</enabled>
     </classAccesses>
-   
     <classAccesses>
         <apexClass>Orchestration</apexClass>
         <enabled>true</enabled>
@@ -25,13 +22,7 @@
         <apexClass>OrchestrationMember</apexClass>
         <enabled>true</enabled>
     </classAccesses>
-    
-    
-
-    
-    
-   
-
+    <custom>false</custom>
     <fieldPermissions>
         <editable>false</editable>
         <field>ElectronPartOrderRequest__e.RepairPartId__c</field>
@@ -57,7 +48,6 @@
         <field>InventoryReport__c.RepairPart__c</field>
         <readable>true</readable>
     </fieldPermissions>
-
     <fieldPermissions>
         <editable>true</editable>
         <field>OrchestrationMember__c.Label__c</field>
@@ -80,7 +70,22 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>OrchestrationStatusUpdate__e.Label__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>OrchestrationStatusUpdate__e.OrchestrationMemberId__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>OrchestrationStatusUpdate__e.Record_ID__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>OrchestrationStatusUpdate__e.Record_Name__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -144,6 +149,11 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>false</editable>
+        <field>Request_Repair_Case_Analysis__e.CaseId__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>RequiredPart__c.AnotherRepairPartLookup__c</field>
         <readable>true</readable>
@@ -153,13 +163,6 @@
         <field>RequiredPart__c.RepairProcedure__c</field>
         <readable>true</readable>
     </fieldPermissions>
-
-    <layoutAssignments>
-        <layout>Case-Case Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Contact-Contact Layout</layout>
-    </layoutAssignments>
     <layoutAssignments>
         <layout>InventoryReport__c-InventoryReport Layout</layout>
     </layoutAssignments>
@@ -181,9 +184,6 @@
     <layoutAssignments>
         <layout>RequiredPart__c-RequiredPart Layout</layout>
     </layoutAssignments>
-
-    
- 
     <objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>true</allowDelete>
@@ -202,7 +202,6 @@
         <object>InventoryReport__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
-  
     <objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>true</allowDelete>
@@ -263,7 +262,7 @@
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
-        <object>RequiredPart__c</object>
+        <object>Request_Repair_Case_Analysis__e</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
@@ -272,42 +271,9 @@
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
-        <object>Strategy__c</object>
+        <object>RequiredPart__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
-   
-    <tabVisibilities>
-        <tab>InventoryReport__c</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>OrchestrationMember__c</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>Orchestration__c</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>Orchestrator</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>PartsVendor__c</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>RepairPart__c</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>RepairProcedure__c</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>RequiredPart__c</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
     <userLicense>Salesforce</userLicense>
     <userPermissions>
         <enabled>true</enabled>
@@ -619,10 +585,6 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
-        <name>ManageCssUsers</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
         <name>ManageCustomPermissions</name>
     </userPermissions>
     <userPermissions>
@@ -696,10 +658,6 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>ManagePackageLicenses</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>ManagePartners</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>

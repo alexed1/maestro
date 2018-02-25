@@ -155,7 +155,7 @@
 
   updateLogstream : function(cmp, eventData) {
     var logstream = cmp.get("v.logStream");
-    var updateLine= eventData.Label__c + " " + eventData.Record_Name__c + " " + eventData.Record_ID__c;
+    var updateLine= eventData.Label__c + " | Record Name: " + eventData.Record_Name__c + " |  RecordId: " + eventData.Record_ID__c;
     logstream.unshift(updateLine);
     cmp.set("v.logStream", logstream);
 

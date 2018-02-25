@@ -3,8 +3,8 @@
     <decisions>
         <name>Take_Action_If_Out_of_Stock</name>
         <label>Take Action If Out of Stock</label>
-        <locationX>357</locationX>
-        <locationY>680</locationY>
+        <locationX>299</locationX>
+        <locationY>489</locationY>
         <defaultConnector>
             <targetReference>Request_Unavailable_Parts</targetReference>
         </defaultConnector>
@@ -25,26 +25,29 @@
             <label>Initiate Procurement</label>
         </rules>
     </decisions>
-    <interviewLabel>Analyze Repair Procedure {!$Flow.CurrentDateTime}</interviewLabel>
-    <label>Analyze Repair Procedure</label>
+    <interviewLabel>Analyze Repair Case {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Analyze Repair Case</label>
     <loops>
         <name>Request_Unavailable_Parts</name>
         <label>Obtain Parts</label>
-        <locationX>149</locationX>
-        <locationY>472</locationY>
+        <locationX>185</locationX>
+        <locationY>332</locationY>
         <assignNextValueToReference>curRequiredPart</assignNextValueToReference>
         <collectionReference>NeededParts</collectionReference>
         <iterationOrder>Asc</iterationOrder>
         <nextValueConnector>
             <targetReference>Get_Inventory_Status</targetReference>
         </nextValueConnector>
+        <noMoreValuesConnector>
+            <targetReference>Update_Orchestration_0_0</targetReference>
+        </noMoreValuesConnector>
     </loops>
     <processType>AutoLaunchedFlow</processType>
     <recordCreates>
         <name>Generate_Part_Order_Request</name>
         <label>Generate Part Order Request</label>
-        <locationX>742</locationX>
-        <locationY>606</locationY>
+        <locationX>548</locationX>
+        <locationY>490</locationY>
         <connector>
             <targetReference>Request_Unavailable_Parts</targetReference>
         </connector>
@@ -71,10 +74,10 @@
     <recordCreates>
         <name>Update_Orchestration</name>
         <label>Update Orchestration</label>
-        <locationX>7</locationX>
-        <locationY>84</locationY>
+        <locationX>162</locationX>
+        <locationY>98</locationY>
         <connector>
-            <targetReference>Load_Repair_Procedure</targetReference>
+            <targetReference>Get_Required_Parts</targetReference>
         </connector>
         <inputAssignments>
             <field>Label__c</field>
@@ -96,11 +99,64 @@
         </inputAssignments>
         <object>OrchestrationStatusUpdate__e</object>
     </recordCreates>
+    <recordCreates>
+        <name>Update_Orchestration_0</name>
+        <label>Update Orchestration</label>
+        <locationX>332</locationX>
+        <locationY>269</locationY>
+        <connector>
+            <targetReference>Request_Unavailable_Parts</targetReference>
+        </connector>
+        <inputAssignments>
+            <field>Label__c</field>
+            <value>
+                <stringValue>Getting List of Required Parts</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Record_ID__c</field>
+            <value>
+                <elementReference>curRepairProcedure.Id</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Record_Name__c</field>
+            <value>
+                <stringValue>Repair Procedure</stringValue>
+            </value>
+        </inputAssignments>
+        <object>OrchestrationStatusUpdate__e</object>
+    </recordCreates>
+    <recordCreates>
+        <name>Update_Orchestration_0_0</name>
+        <label>Update Orchestration</label>
+        <locationX>9</locationX>
+        <locationY>341</locationY>
+        <inputAssignments>
+            <field>Label__c</field>
+            <value>
+                <stringValue>Completed Repair Procedure Analysis</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Record_ID__c</field>
+            <value>
+                <elementReference>curRepairProcedure.Id</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Record_Name__c</field>
+            <value>
+                <stringValue>Repair Procedure</stringValue>
+            </value>
+        </inputAssignments>
+        <object>OrchestrationStatusUpdate__e</object>
+    </recordCreates>
     <recordLookups>
         <name>Get_Inventory_Status</name>
         <label>Get Inventory Status</label>
-        <locationX>146</locationX>
-        <locationY>583</locationY>
+        <locationX>126</locationX>
+        <locationY>482</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
             <targetReference>Take_Action_If_Out_of_Stock</targetReference>
@@ -122,11 +178,11 @@
     <recordLookups>
         <name>Get_Required_Parts</name>
         <label>Get Required Parts</label>
-        <locationX>283</locationX>
-        <locationY>145</locationY>
+        <locationX>288</locationX>
+        <locationY>182</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
-            <targetReference>Request_Unavailable_Parts</targetReference>
+            <targetReference>Update_Orchestration_0</targetReference>
         </connector>
         <filters>
             <field>RepairProcedure__c</field>
@@ -145,11 +201,11 @@
     <recordLookups>
         <name>Load_Repair_Procedure</name>
         <label>Load Current Repair Procedure</label>
-        <locationX>124</locationX>
-        <locationY>123</locationY>
+        <locationX>29</locationX>
+        <locationY>60</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
-            <targetReference>Get_Required_Parts</targetReference>
+            <targetReference>Update_Orchestration</targetReference>
         </connector>
         <filters>
             <field>Issue__c</field>
@@ -165,7 +221,7 @@
         <queriedFields>Id</queriedFields>
         <queriedFields>Category__c</queriedFields>
     </recordLookups>
-    <startElementReference>Update_Orchestration</startElementReference>
+    <startElementReference>Load_Repair_Procedure</startElementReference>
     <variables>
         <name>curAccount</name>
         <dataType>SObject</dataType>

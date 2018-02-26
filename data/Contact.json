@@ -1,0 +1,12 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "Contact",
+                "referenceId": "ContactRef1"
+            },
+            "FirstNameLocal": "Lauren",
+            "LastNameLocal": "Boyle"
+        }
+    ]
+}

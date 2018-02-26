@@ -1,0 +1,25 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "RequiredPart__c",
+                "referenceId": "RequiredPart__cRef1"
+            },
+            "Name": "BrakeRotor Bearing Shim Kit"
+        },
+        {
+            "attributes": {
+                "type": "RequiredPart__c",
+                "referenceId": "RequiredPart__cRef2"
+            },
+            "Name": "Brake Rotor Gasket Set"
+        },
+        {
+            "attributes": {
+                "type": "RequiredPart__c",
+                "referenceId": "RequiredPart__cRef3"
+            },
+            "Name": "Brake Rotor"
+        }
+    ]
+}

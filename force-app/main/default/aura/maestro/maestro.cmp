@@ -69,10 +69,13 @@
             </div>
             <div >
                 Log Stream<p></p>
-                <hr></hr>
-                <aura:iteration items="{!v.logStream}" var="item">
-                    {!item}<p></p>
-                </aura:iteration>
+                <div class="lexTable">
+                    <h2> Event                                    Record Name          Record Id </h2>
+                    <hr></hr>
+                    <aura:iteration items="{!v.logStream}" var="item">
+                        {!item}<p></p>
+                    </aura:iteration>
+                </div>
              
             </div>
 

@@ -1,0 +1,20 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "PartsVendor__c",
+                "referenceId": "PartsVendor__cRef1"
+            },
+            "Name": "Chicago Brakes Distributors",
+            "IntegrationType__c": "ElectronicDataInterchange"
+        },
+        {
+            "attributes": {
+                "type": "PartsVendor__c",
+                "referenceId": "PartsVendor__cRef2"
+            },
+            "Name": "Abrasivetech Materials",
+            "IntegrationType__c": "Telephone"
+        }
+    ]
+}

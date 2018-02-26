@@ -1,0 +1,28 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "InventoryReport__c",
+                "referenceId": "InventoryReport__cRef1"
+            },
+            "Name": "Inventory of BrakeRotor Bearing Shim Kit",
+            "InventoryStatus__c": "In Stock"
+        },
+        {
+            "attributes": {
+                "type": "InventoryReport__c",
+                "referenceId": "InventoryReport__cRef2"
+            },
+            "Name": "Inventory of Brake Rotor",
+            "InventoryStatus__c": "Out_of_Stock"
+        },
+        {
+            "attributes": {
+                "type": "InventoryReport__c",
+                "referenceId": "InventoryReport__cRef3"
+            },
+            "Name": "Inventory of Brake Rotor Gasket Set",
+            "InventoryStatus__c": "Out_of_Stock"
+        }
+    ]
+}

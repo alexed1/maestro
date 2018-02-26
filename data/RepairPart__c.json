@@ -1,0 +1,28 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "RepairPart__c",
+                "referenceId": "RepairPart__cRef1"
+            },
+            "Name": "BrakeRotor Bearing Shim Kit",
+            "Part_Number__c": "Dx95045-23"
+        },
+        {
+            "attributes": {
+                "type": "RepairPart__c",
+                "referenceId": "RepairPart__cRef2"
+            },
+            "Name": "Brake Rotor",
+            "Part_Number__c": "DX3496-23"
+        },
+        {
+            "attributes": {
+                "type": "RepairPart__c",
+                "referenceId": "RepairPart__cRef3"
+            },
+            "Name": "Brake Rotor Gasket Set",
+            "Part_Number__c": "DX45094-25"
+        }
+    ]
+}

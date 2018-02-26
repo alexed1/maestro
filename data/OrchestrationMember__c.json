@@ -1,0 +1,24 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "OrchestrationMember__c",
+                "referenceId": "OrchestrationMember__cRef1"
+            },
+            "Name": "0",
+            "Label__c": "Flow1",
+            "Type__c": "Flow",
+            "Status__c": "Nominal"
+        },
+        {
+            "attributes": {
+                "type": "OrchestrationMember__c",
+                "referenceId": "OrchestrationMember__cRef2"
+            },
+            "Name": "1",
+            "Label__c": "Flow 2",
+            "Type__c": "Flow",
+            "Status__c": "Waiting to be Resumed"
+        }
+    ]
+}

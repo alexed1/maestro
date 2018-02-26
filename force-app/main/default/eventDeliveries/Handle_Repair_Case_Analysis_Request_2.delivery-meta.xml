@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EventDelivery xmlns="http://soap.sforce.com/2006/04/metadata">
+    <eventParameters>
+        <parameterName>FlowVersionName</parameterName>
+        <parameterValue>Handle_Repair_Case_Analysis_Request-2</parameterValue>
+    </eventParameters>
+    <eventSubscription>Handle_Repair_Case_Analysis_Request_2</eventSubscription>
+    <referenceData>Handle_Repair_Case_Analysis_Request_2</referenceData>
+    <type>StartFlow</type>
+</EventDelivery>

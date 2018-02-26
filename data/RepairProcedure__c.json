@@ -1,0 +1,48 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "RepairProcedure__c",
+                "referenceId": "RepairProcedure__cRef1"
+            },
+            "Name": "Replace Brake Electrical Sensor",
+            "Model__c": "Cordoba",
+            "Issue__c": "Electrical_Fault_In_Brake_Sens",
+            "Frequency__c": "Rare",
+            "Category__c": "Brakes"
+        },
+        {
+            "attributes": {
+                "type": "RepairProcedure__c",
+                "referenceId": "RepairProcedure__cRef2"
+            },
+            "Name": "Replace Brake Pad",
+            "Model__c": "Cordoba",
+            "Issue__c": "Worn_Brake_Pad",
+            "Frequency__c": "Common",
+            "Category__c": "Brakes"
+        },
+        {
+            "attributes": {
+                "type": "RepairProcedure__c",
+                "referenceId": "RepairProcedure__cRef3"
+            },
+            "Name": "Replace Worn Brake Rotor",
+            "Model__c": "Cordoba",
+            "Issue__c": "Worn_Brake_Rotor",
+            "Frequency__c": "Common",
+            "Category__c": "Brakes"
+        },
+        {
+            "attributes": {
+                "type": "RepairProcedure__c",
+                "referenceId": "RepairProcedure__cRef4"
+            },
+            "Name": "Replace Worn Brake Disc",
+            "Model__c": "Cordoba",
+            "Issue__c": "Replace Worn Brake Disc",
+            "Frequency__c": "Common",
+            "Category__c": "Brakes"
+        }
+    ]
+}

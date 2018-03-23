@@ -228,57 +228,57 @@
             <sortOrder>14</sortOrder>
         </platformActionListItems>
         <platformActionListItems>
-            <actionName>AccountHierarchy</actionName>
+            <actionName>IncludeOffline</actionName>
             <actionType>StandardButton</actionType>
             <sortOrder>15</sortOrder>
         </platformActionListItems>
         <platformActionListItems>
-            <actionName>Edit</actionName>
+            <actionName>JigsawSearch</actionName>
             <actionType>StandardButton</actionType>
             <sortOrder>16</sortOrder>
         </platformActionListItems>
         <platformActionListItems>
-            <actionName>JigsawSearch</actionName>
+            <actionName>PartnerScorecard</actionName>
             <actionType>StandardButton</actionType>
             <sortOrder>17</sortOrder>
         </platformActionListItems>
         <platformActionListItems>
-            <actionName>PartnerScorecard</actionName>
+            <actionName>Submit</actionName>
             <actionType>StandardButton</actionType>
             <sortOrder>18</sortOrder>
         </platformActionListItems>
         <platformActionListItems>
-            <actionName>Delete</actionName>
+            <actionName>ChangeRecordType</actionName>
             <actionType>StandardButton</actionType>
             <sortOrder>19</sortOrder>
         </platformActionListItems>
         <platformActionListItems>
-            <actionName>Share</actionName>
+            <actionName>AccountHierarchy</actionName>
             <actionType>StandardButton</actionType>
             <sortOrder>20</sortOrder>
         </platformActionListItems>
         <platformActionListItems>
-            <actionName>Submit</actionName>
+            <actionName>Edit</actionName>
             <actionType>StandardButton</actionType>
             <sortOrder>21</sortOrder>
         </platformActionListItems>
         <platformActionListItems>
-            <actionName>IncludeOffline</actionName>
+            <actionName>Share</actionName>
             <actionType>StandardButton</actionType>
             <sortOrder>22</sortOrder>
         </platformActionListItems>
         <platformActionListItems>
-            <actionName>XClean</actionName>
+            <actionName>Delete</actionName>
             <actionType>StandardButton</actionType>
             <sortOrder>23</sortOrder>
         </platformActionListItems>
         <platformActionListItems>
-            <actionName>ChangeOwnerOne</actionName>
+            <actionName>XClean</actionName>
             <actionType>StandardButton</actionType>
             <sortOrder>24</sortOrder>
         </platformActionListItems>
         <platformActionListItems>
-            <actionName>ChangeRecordType</actionName>
+            <actionName>ChangeOwnerOne</actionName>
             <actionType>StandardButton</actionType>
             <sortOrder>25</sortOrder>
         </platformActionListItems>
@@ -415,7 +415,7 @@
     <showRunAssignmentRulesCheckbox>false</showRunAssignmentRulesCheckbox>
     <showSubmitAndAttachButton>false</showSubmitAndAttachButton>
     <summaryLayout>
-        <masterLabel>00h0m000000WuMo</masterLabel>
+        <masterLabel>00h63000000Zx9E</masterLabel>
         <sizeX>4</sizeX>
         <sizeY>0</sizeY>
         <summaryLayoutStyle>Default</summaryLayoutStyle>

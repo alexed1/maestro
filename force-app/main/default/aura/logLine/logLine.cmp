@@ -1,0 +1,24 @@
+<aura:component >
+    <aura:attribute name="recordId" type="String" />
+    <aura:attribute name="message" type="String" />                                       
+    <aura:attribute name="recordTypeName" type="String" />                                    
+    
+    
+   
+    <div class="slds-grid " >
+                    <div class="slds-col slds-size_7-of-12">
+                        {!v.message} 
+                    </div>
+                    <div class="slds-col slds-size_4-of-12">
+                        {!v.recordTypeName}
+                    </div>
+                    <div class="slds-col slds-size_1-of-12">
+                        
+                        <lightning:button name="{!v.recordId}" label="View" onclick="{! c.handleClick }" />
+                    </div>
+     </div>
+    
+    
+ 
+    
+</aura:component>

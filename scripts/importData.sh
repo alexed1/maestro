@@ -1,9 +1,9 @@
-sfdx force:data:tree:import -f Orchestration__c.json -u 20scratch
-sfdx force:data:tree:import -f OrchestrationMember__c.json -u 20scratch
-sfdx force:data:tree:import -f RepairProcedure__c.json -u 20scratch
-sfdx force:data:tree:import -f RepairPart__c.json -u 20scratch
-sfdx force:data:tree:import -f RequiredPart__c.json -u 20scratch
-sfdx force:data:tree:import -f InventoryReport__c.json -u 20scratch
-sfdx force:data:tree:import -f PartsVendor__c.json -u 20scratch
-sfdx force:data:tree:import -f Contact.json -u 20scratch
-sfdx force:data:tree:import -f Account.json -u 20scratch
+sfdx force:data:tree:import -f Orchestration__c.json
+sfdx force:data:tree:import -f OrchestrationMember__c.json
+sfdx force:data:tree:import -f RepairProcedure__c.json
+sfdx force:data:tree:import -f RepairPart__c.json
+sfdx force:data:tree:import -f RequiredPart__c.json
+sfdx force:data:tree:import -f InventoryReport__c.json
+sfdx force:data:tree:import -f PartsVendor__c.json
+sfdx force:data:tree:import -f Contact.json
+sfdx force:data:tree:import -f Account.json

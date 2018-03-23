@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EventSubscription xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>false</active>
+    <eventType>Part_Fulfilled__e</eventType>
+    <referenceData>Part_Fulfilled_1</referenceData>
+</EventSubscription>

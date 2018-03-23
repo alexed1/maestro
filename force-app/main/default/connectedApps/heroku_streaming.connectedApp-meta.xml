@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>nlipke@salesforce.com</contactEmail>
+    <label>heroku streaming</label>
+    <oauthConfig>
+        <callbackUrl>https://tdx18-events.herokuapp.com/oauth/_callback</callbackUrl>
+        <consumerKey>3MVG967gVD5fuTmKUfv7Xi_bBekXVmkh1bdJbJyeGpWXQh.2ya6pskItPyB2bS.xR5GMNp2oXedWqANw3iP5S</consumerKey>
+        <scopes>Basic</scopes>
+        <scopes>Api</scopes>
+        <scopes>Full</scopes>
+        <scopes>RefreshToken</scopes>
+        <scopes>OpenID</scopes>
+    </oauthConfig>
+</ConnectedApp>

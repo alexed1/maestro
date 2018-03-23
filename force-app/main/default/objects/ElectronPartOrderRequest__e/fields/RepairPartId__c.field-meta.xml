@@ -6,7 +6,7 @@
     <isNameField>false</isNameField>
     <isSortingDisabled>false</isSortingDisabled>
     <label>RepairPartId</label>
-    <length>20</length>
+    <length>18</length>
     <required>false</required>
     <type>Text</type>
     <unique>false</unique>
